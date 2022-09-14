@@ -15,8 +15,11 @@
 * **Benchmark** the method versus a simple naive forecast and evaluate it thoroughly using **RMSE, MAE, MAPE, and MASE** measures.
 
 ## Key Results
-* A **(0, 2, 1), (1, 1, 0), and (0, 1, 1) model** was used for the forecasts for the **EU, China, and US**, respectively. 
-The naive forecast outperformed the ARIMA forecast for Europe. All forecast measures pointed towards the same results. 
+* A **(0, 2, 1), (1, 1, 0), and (0, 1, 1) model** was used for the forecast evaluation for the **EU, China, and US**, respectively. 
+The naive forecast outperformed the ARIMA forecast for Europe. 
+![Forecast Fan Plot](Forecast_Fan_Plot.png)
+
+Rendered Image/assets/images/electrocat.png
 * The Box-Jenkins-Approach appears to **not be well-suited for applied long-term predictions**. Future work should utilize more sophisticated methods (ensembles of statistical models, deep learning models that can model dependencies such as (bidirectional) LSTMs), utilize **cross-learning or multivariate models**, and inclusion of relevant **covariates**.
 
 ## Installation Instructions
