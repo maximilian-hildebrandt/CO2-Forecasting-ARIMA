@@ -14,7 +14,8 @@
 * **Benchmark** the method versus a simple naïve forecast and evaluate it thoroughly using **RMSE, MAE, MAPE, and MASE** measures.
 
 ## Key Results
-* **(0, 2, 1), (1, 1, 0), and (0, 1, 1) ARIMA models** were used for the forecast evaluation for the **EU, China, and US**, respectively. The forecast for the EU and China is shown below (due to heteroscedasticity, the U.S. model was not used for forecasting; a GARCH model would be required). 
+* **(0, 2, 1), (1, 1, 0), and (0, 1, 1) ARIMA models** were used for the forecast evaluation for the **EU, China, and US**, respectively. The forecast for the EU and China is shown below (due to heteroscedasticity, the U.S. model was not used for forecasting; a GARCH model would be required):
+
 ![Forecast Fan Plot](Forecast_Fan_Plot.png)
 * The **naïve forecast outperformed the ARIMA forecast for Europe**, whereas the **ARIMA model performed better across measures for China**. 
 * The Box-Jenkins-Approach appears to **not be well-suited for applied long-term predictions**. Future work should utilize more sophisticated methods (ensembles of statistical models, deep learning models that can model dependencies such as (bidirectional) LSTMs), utilize **cross-learning or multivariate models**, and include relevant **covariates** to improve the predictive performance of the model.
