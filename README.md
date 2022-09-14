@@ -14,7 +14,7 @@
 * **Benchmark** the method versus a simple naïve forecast and evaluate it thoroughly using **RMSE, MAE, MAPE, and MASE** measures.
 
 ## Key Results
-* **(0, 2, 1), (1, 1, 0), and (0, 1, 1) ARIMA models** were used as final models for **EU, China, and US**, respectively. 
+* **(0, 2, 1), (1, 1, 0), and (0, 1, 1) ARIMA models** were used as final models for **EU, China, and US**, respectively. The EU and China model passed the residual checks. 
 * The **naïve forecast outperformed the ARIMA forecast for Europe**, whereas the **ARIMA model performed better across measures for China**  (due to heteroscedasticity, the U.S. model was not used for forecasting; a GARCH model would be required):
 
 ![Performance Results of ARIMA and naïve forecast](03_Images/performance_scores_arima.png)
