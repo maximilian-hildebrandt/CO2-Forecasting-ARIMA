@@ -18,7 +18,7 @@
 
 ![Forecast Fan Plot](Forecast_Fan_Plot.png)
 * The **naïve forecast outperformed the ARIMA forecast for Europe**, whereas the **ARIMA model performed better across measures for China**:
-* 
+
 ![Performance Results of ARIMA and naïve forecast](performance_scores_arima.png)
 * The Box-Jenkins-Approach appears to **not be well-suited for applied long-term predictions**. Future work should utilize more sophisticated methods (ensembles of statistical models, deep learning models that can model dependencies such as (bidirectional) LSTMs), utilize **cross-learning or multivariate models**, and include relevant **covariates** to improve the predictive performance of the model.
 
