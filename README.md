@@ -19,7 +19,7 @@
 
 ![Performance Results of ARIMA and naïve forecast](03_Images/performance_scores_arima.png)
 
-* The **forecast** for the EU and China is shown below:
+* The **2030 forecast** for the EU and China is shown below:
 
 ![Forecast Fan Plot](03_Images/Forecast_Fan_Plot.png)
 * The Box-Jenkins-Approach appears to **not be well-suited for applied long-term predictions**. Future work should utilize more sophisticated methods (ensembles of statistical models, deep learning models that can model dependencies such as (bidirectional) LSTMs), utilize **cross-learning or multivariate models**, and include relevant **covariates** to improve the predictive performance of the model.
