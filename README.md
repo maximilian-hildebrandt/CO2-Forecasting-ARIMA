@@ -27,4 +27,4 @@
 ## Installation Instructions
 * Install **R (4.2.1) and RStudio**
 * Change the **data loading path** to your local working directory
-* Run the script and read the accompagnying written report
+* Run the script and consider reading the written report for in-depth insights
